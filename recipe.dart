@@ -1,14 +1,14 @@
 class Recipe {
-  String id;
-  String title;
-  String imageUrl;
-  int duration;
-  List<String> ingredients;
-  List<String> steps;
-  bool isGlutentFree;
-  bool isVegan;
-  bool isVegetarian;
-  bool isLactoseFree;
+  final String id;
+  final String title;
+  final String imageUrl;
+  final int duration;
+  final List<String> ingredients;
+  final List<String> steps;
+  final bool isGlutentFree;
+  final bool isVegan;
+  final bool isVegetarian;
+  final bool isLactoseFree;
 
   Recipe(
       {required this.id,
