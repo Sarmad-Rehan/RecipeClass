@@ -1,6 +1,6 @@
 import 'recipe.dart';
 
-const dummy_recipes = const [
+List<Recipe> dummy_recipes = [
   const Recipe(
     id: 'm1',
     title: 'Spaghetti with Tomato Sauce',
