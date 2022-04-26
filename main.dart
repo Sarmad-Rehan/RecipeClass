@@ -26,6 +26,12 @@ void main(List<String> args) {
   print("List Title");
   print(listTitle);
 
+  List<Set> mapList = dummy_recipes
+      .where((element) => element.duration >= 20)
+      .map((e) => {'Id:', e.id, 'Title:', e.title, 'Duration:', e.duration})
+      .toList();
+  print(mapList);
+
   List<SelectedRecipe> selectedList = dummy_recipes
       .map(
           (e) => SelectedRecipe(id: e.id, title: e.title, duration: e.duration))
