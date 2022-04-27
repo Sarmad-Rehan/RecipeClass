@@ -17,10 +17,10 @@ void main(List<String> args) {
   print("List IsGlutenFree");
   print(listIsGlutenFree);
 
-  List<Recipe> listSteps =
-      dummy_recipes.where((element) => (element.steps.length == 6)).toList();
-  print("List Steps");
-  print(listSteps);
+  // List<Recipe> listSteps =
+  //     dummy_recipes.where((element) => (element.steps!.length == 6)).toList();
+  // print("List Steps");
+  // print(listSteps);
   List<Recipe> listTitle =
       dummy_recipes.where((element) => element.title.startsWith("C")).toList();
   print("List Title");

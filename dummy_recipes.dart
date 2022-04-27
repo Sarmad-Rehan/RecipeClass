@@ -1,7 +1,7 @@
 import 'recipe.dart';
 
 List<Recipe> dummy_recipes = [
-  const Recipe(
+  Recipe.init(
     id: 'm1',
     title: 'Spaghetti with Tomato Sauce',
     imageUrl:
@@ -29,7 +29,7 @@ List<Recipe> dummy_recipes = [
     isVegetarian: true,
     isLactoseFree: true,
   ),
-  Recipe(
+  Recipe.init(
     id: 'm2',
     title: 'Toast Hawaii',
     imageUrl:
@@ -52,7 +52,7 @@ List<Recipe> dummy_recipes = [
     isVegetarian: false,
     isLactoseFree: false,
   ),
-  Recipe(
+  Recipe.init(
     id: 'm3',
     title: 'Classic Hamburger',
     imageUrl:
@@ -78,7 +78,7 @@ List<Recipe> dummy_recipes = [
     isVegetarian: false,
     isLactoseFree: true,
   ),
-  Recipe(
+  Recipe.init(
     id: 'm4',
     title: 'Wiener Schnitzel',
     imageUrl:
@@ -108,7 +108,7 @@ List<Recipe> dummy_recipes = [
     isVegetarian: false,
     isLactoseFree: false,
   ),
-  Recipe(
+  Recipe.init(
     id: 'm5',
     title: 'Salad with Smoked Salmon',
     imageUrl:
@@ -137,7 +137,7 @@ List<Recipe> dummy_recipes = [
     isVegetarian: true,
     isLactoseFree: true,
   ),
-  Recipe(
+  Recipe.init(
     id: 'm6',
     title: 'Delicious Orange Mousse',
     imageUrl:
@@ -167,7 +167,7 @@ List<Recipe> dummy_recipes = [
     isVegetarian: true,
     isLactoseFree: false,
   ),
-  Recipe(
+  Recipe.init(
     id: 'm7',
     title: 'Pancakes',
     imageUrl:
@@ -193,7 +193,7 @@ List<Recipe> dummy_recipes = [
     isVegetarian: true,
     isLactoseFree: false,
   ),
-  Recipe(
+  Recipe.init(
     id: 'm8',
     title: 'Creamy Indian Chicken Curry',
     imageUrl:
@@ -221,7 +221,7 @@ List<Recipe> dummy_recipes = [
     isVegetarian: false,
     isLactoseFree: true,
   ),
-  Recipe(
+  Recipe.init(
     id: 'm9',
     title: 'Chocolate Souffle',
     imageUrl:
@@ -265,7 +265,7 @@ List<Recipe> dummy_recipes = [
     isVegetarian: true,
     isLactoseFree: false,
   ),
-  Recipe(
+  Recipe.init(
     id: 'm10',
     title: 'Asparagus Salad with Cherry Tomatoes',
     imageUrl:
@@ -292,4 +292,11 @@ List<Recipe> dummy_recipes = [
     isVegetarian: true,
     isLactoseFree: true,
   ),
+  Recipe.selective(
+    id: 'm10',
+    title: 'Asparagus Salad with Cherry Tomatoes',
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    duration: 30,
+  )
 ];
